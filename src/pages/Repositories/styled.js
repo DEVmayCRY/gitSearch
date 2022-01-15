@@ -10,7 +10,7 @@ export const Title = styled.h1`
     text-align: center;
     font-size: 2rem;
     font-family: sans-serif;
-    color: #333;
+    color: #444;
 `;
 
 export const List = styled.ul`

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import * as S from './styled';
-
+/*useEffect + useState ok */
 export default function Repositories() {
     const [ repositories, setRepositories ] = useState([]);
 
