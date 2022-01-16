@@ -1,8 +1,15 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-    width: 100vw;
+export const HomeContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-itens: center;
+    justify-content: center;
     height: 100vh;
+`;
+
+export const Content = styled.div`
+    width: 100vw;
     display: flex;
     align-itens: center;
     justify-content: center;
@@ -33,4 +40,14 @@ export const Button = styled.button`
         outline: none;
         box-shadow: none;
     }
+`;
+
+
+export const errorMsg = styled.span`
+    display: block;
+    font-size: 0.65rem;
+    color: red;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: center;
 `;
